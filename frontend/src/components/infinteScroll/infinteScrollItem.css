@@ -1,0 +1,33 @@
+.infinte-scoll-item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.infinte-scoll-item-img-block {
+  width: 40%;
+}
+.infinte-scoll-item-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.infinte-scoll-item-text-block {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-start;
+}
+
+.infinte-scoll-item-heading-block p,
+.infinte-scoll-item-date-block p {
+  margin: 0px 0px 10px 0px;
+  text-align: left;
+}
+.infinte-scoll-item-heading {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}

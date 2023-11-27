@@ -1,0 +1,9 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
